@@ -30,5 +30,19 @@
     <a class="btn" href="http://service.automester.dk/book-tid?workshop=23336413">🔧 Book tid til værksted</a>
     <div class="foot">Drevet af <a href="https://taplink.dk">taplink</a></div>
   </div>
+  <script>
+    // Anonym tælling (ingen personhenførbare data): 1 tap = 1 sidevisning.
+    (function () {
+      var b = "";
+      if (!b) return;
+      var send = function (t) {
+        try { navigator.sendBeacon(b + "/api/tap/rm-autoteknik?t=" + t); } catch (e) {}
+      };
+      send("view");
+      document.querySelectorAll("a.btn").forEach(function (a, i) {
+        a.addEventListener("click", function () { send("klik" + i); });
+      });
+    })();
+  </script>
 </body>
 </html>

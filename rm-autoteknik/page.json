@@ -12,7 +12,8 @@
   },
   {
    "label": "🔧 Book tid til værksted",
-   "url": "https://service.automester.dk/book-tid"
+   "url": "http://service.automester.dk/book-tid?workshop=23336413"
   }
- ]
+ ],
+ "logo": ""
 }

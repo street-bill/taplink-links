@@ -1,10 +1,12 @@
 {
  "navn": "Café Eksempel",
+ "anmeld_url": "https://taplink.dk",
  "retter": [
   {
    "navn": "Avocado-toast",
    "kategori": "Brunch",
    "beskrivelse": "Surdejsbrød, avocado, pocheret æg, chili",
+   "pris": "95 kr",
    "allergener": [
     "gluten",
     "aeg"
@@ -18,6 +20,7 @@
    "navn": "Yoghurt med granola",
    "kategori": "Brunch",
    "beskrivelse": "Græsk yoghurt, hjemmelavet granola, bær",
+   "pris": "65 kr",
    "allergener": [
     "maelk",
     "gluten",
@@ -30,6 +33,7 @@
    "navn": "Pandekager",
    "kategori": "Brunch",
    "beskrivelse": "Ahornsirup og bær",
+   "pris": "75 kr",
    "allergener": [
     "gluten",
     "aeg",
@@ -42,6 +46,7 @@
    "navn": "Laksesalat",
    "kategori": "Frokost",
    "beskrivelse": "Varmrøget laks, kartofler, dild-dressing",
+   "pris": "125 kr",
    "allergener": [
     "fisk",
     "sennep",
@@ -54,6 +59,7 @@
    "navn": "Thai-suppe med rejer",
    "kategori": "Frokost",
    "beskrivelse": "Kokos, citrongræs, rejer",
+   "pris": "115 kr",
    "allergener": [
     "krebsdyr",
     "soja",
@@ -68,6 +74,7 @@
    "navn": "Grøn salat",
    "kategori": "Frokost",
    "beskrivelse": "Sæsonens grønt, citronvinaigrette",
+   "pris": "85 kr",
    "allergener": [],
    "kan_indeholde": [],
    "oplyst": true
@@ -76,6 +83,7 @@
    "navn": "Dagens kage",
    "kategori": "Kager",
    "beskrivelse": "Skifter dagligt",
+   "pris": "45 kr",
    "allergener": [],
    "kan_indeholde": [],
    "oplyst": false
@@ -84,6 +92,7 @@
    "navn": "Cappuccino",
    "kategori": "Drikke",
    "beskrivelse": "Kan fås med havremælk",
+   "pris": "42 kr",
    "allergener": [
     "maelk"
    ],

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Allergener - Café Eksempel</title>
+<style>
+  :root { --bg:#f7f6f3; --kort:#fff; --tekst:#1c1c1c; --svag:#6b6b6b; --linje:#e4e2dd; --ok:#1f7a4d;
+          --ok-bg:#e7f4ec; --nej:#b3261e; --nej-bg:#fbeceb; --valgt:#1c1c1c; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:-apple-system,system-ui,"Segoe UI",sans-serif; background:var(--bg); color:var(--tekst);
+         padding:20px 16px 40px; line-height:1.4; }
+  .wrap { max-width:560px; margin:0 auto; }
+  header { display:flex; justify-content:space-between; align-items:flex-start; gap:12px; margin-bottom:14px; }
+  h1 { font-size:1.45rem; }
+  .sub { color:var(--svag); font-size:.85rem; margin-top:2px; }
+  .sprog { border:1px solid var(--linje); background:var(--kort); border-radius:20px; padding:6px 12px;
+           font-size:.85rem; cursor:pointer; white-space:nowrap; }
+  .boks { background:var(--kort); border:1px solid var(--linje); border-radius:14px; padding:14px; margin-bottom:14px; }
+  .boks h2 { font-size:1rem; margin-bottom:10px; }
+  .chips { display:flex; flex-wrap:wrap; gap:8px; }
+  .chip { border:1px solid var(--linje); background:var(--kort); border-radius:20px; padding:8px 12px;
+          font-size:.9rem; cursor:pointer; user-select:none; }
+  .chip.on { background:var(--valgt); color:#fff; border-color:var(--valgt); }
+  .status { font-size:.9rem; color:var(--svag); margin:4px 2px 12px; }
+  .kat { font-size:.8rem; text-transform:uppercase; letter-spacing:.06em; color:var(--svag); margin:18px 2px 8px; }
+  .ret { background:var(--kort); border:1px solid var(--linje); border-radius:12px; padding:12px 14px; margin-bottom:8px; }
+  .ret.nej { background:var(--nej-bg); border-color:#f1c9c6; }
+  .ret.ok { border-left:4px solid var(--ok); }
+  .navn { font-weight:600; }
+  .beskr { color:var(--svag); font-size:.88rem; margin-top:2px; }
+  .info { font-size:.85rem; margin-top:6px; }
+  .info b { font-weight:600; }
+  .maerke { display:inline-block; font-size:.75rem; font-weight:700; border-radius:10px; padding:2px 8px; margin-top:6px; }
+  .m-ok { background:var(--ok-bg); color:var(--ok); }
+  .m-nej { background:#f4d4d1; color:var(--nej); }
+  .m-ukendt { background:#ece9e2; color:var(--svag); }
+  .skjult { display:none; }
+  .fod { color:var(--svag); font-size:.8rem; margin-top:22px; text-align:center; }
+  .fod a { color:var(--svag); }
+  .tom { text-align:center; color:var(--svag); padding:30px 10px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div><h1>Café Eksempel</h1><div class="sub" id="opd"></div></div>
+    <button class="sprog" id="sprog">English</button>
+  </header>
+  <div class="boks">
+    <h2 id="t-vaelg"></h2>
+    <div class="chips" id="chips"></div>
+  </div>
+  <div class="status" id="status"></div>
+  <div id="liste"></div>
+  <div class="fod"><span id="t-spoerg"></span><br><br><span id="t-drevet"></span> <a href="https://taplink.dk">taplink</a></div>
+</div>
+<script>
+var D = {"opdateret": "20.10.2026", "retter": [{"navn": "Avocado-toast", "kategori": "Brunch", "beskrivelse": "Surdejsbrød, avocado, pocheret æg, chili", "allergener": ["gluten", "aeg"], "kan_indeholde": ["sesam"], "oplyst": true}, {"navn": "Yoghurt med granola", "kategori": "Brunch", "beskrivelse": "Græsk yoghurt, hjemmelavet granola, bær", "allergener": ["maelk", "gluten", "noedder"], "kan_indeholde": [], "oplyst": true}, {"navn": "Pandekager", "kategori": "Brunch", "beskrivelse": "Ahornsirup og bær", "allergener": ["gluten", "aeg", "maelk"], "kan_indeholde": [], "oplyst": true}, {"navn": "Laksesalat", "kategori": "Frokost", "beskrivelse": "Varmrøget laks, kartofler, dild-dressing", "allergener": ["fisk", "sennep", "aeg"], "kan_indeholde": [], "oplyst": true}, {"navn": "Thai-suppe med rejer", "kategori": "Frokost", "beskrivelse": "Kokos, citrongræs, rejer", "allergener": ["krebsdyr", "soja", "fisk"], "kan_indeholde": ["jordnoedder"], "oplyst": true}, {"navn": "Grøn salat", "kategori": "Frokost", "beskrivelse": "Sæsonens grønt, citronvinaigrette", "allergener": [], "kan_indeholde": [], "oplyst": true}, {"navn": "Dagens kage", "kategori": "Kager", "beskrivelse": "Skifter dagligt", "allergener": [], "kan_indeholde": [], "oplyst": false}, {"navn": "Cappuccino", "kategori": "Drikke", "beskrivelse": "Kan fås med havremælk", "allergener": ["maelk"], "kan_indeholde": [], "oplyst": true}]};
+var A = [["gluten", "Gluten", "Gluten"], ["krebsdyr", "Krebsdyr", "Crustaceans"], ["aeg", "Æg", "Eggs"], ["fisk", "Fisk", "Fish"], ["jordnoedder", "Jordnødder", "Peanuts"], ["soja", "Soja", "Soy"], ["maelk", "Mælk", "Milk"], ["noedder", "Nødder", "Tree nuts"], ["selleri", "Selleri", "Celery"], ["sennep", "Sennep", "Mustard"], ["sesam", "Sesam", "Sesame"], ["svovl", "Sulfitter", "Sulphites"], ["lupin", "Lupin", "Lupin"], ["bloeddyr", "Bløddyr", "Molluscs"]];
+var T = {
+  da: { vaelg:"Jeg tåler ikke:", spoerg:"Har du en alvorlig allergi, så spørg altid personalet, før du bestiller.",
+        drevet:"Drevet af", opd:"Opdateret", alle:"Vælg dine allergier, så viser vi, hvad du kan spise.",
+        passer:"retter passer til dig", ingen:"Ingen retter passer til dine valg - spørg personalet.",
+        indeh:"Indeholder", spor:"Kan indeholde spor af", ingenall:"Ingen af de 14 allergener",
+        ok:"Passer til dig", nej:"Indeholder noget, du ikke tåler", ukendt:"Ikke oplyst - spørg personalet",
+        venter:"Allergenoplysningerne er på vej. Spørg personalet indtil da.", knap:"English" },
+  en: { vaelg:"I can't have:", spoerg:"If you have a severe allergy, always ask the staff before ordering.",
+        drevet:"Powered by", opd:"Updated", alle:"Select your allergies to see what you can eat.",
+        passer:"dishes suit you", ingen:"No dishes match your selection - please ask the staff.",
+        indeh:"Contains", spor:"May contain traces of", ingenall:"None of the 14 allergens",
+        ok:"Suits you", nej:"Contains something you can't have", ukendt:"Not stated - ask the staff",
+        venter:"Allergen information is on its way. Please ask the staff for now.", knap:"Dansk" }
+};
+var sprog = (navigator.language || "da").slice(0,2) === "da" ? "da" : "en";
+var valgt = {};
+try { valgt = JSON.parse(localStorage.getItem("taplink-allergener") || "{}"); } catch (e) {}
+function navn(k) { for (var i=0;i<A.length;i++) if (A[i][0]===k) return sprog==="da" ? A[i][1] : A[i][2]; return k; }
+function esc(s) { var d=document.createElement("div"); d.textContent=s||""; return d.innerHTML; }
+function tegn() {
+  var t = T[sprog];
+  document.documentElement.lang = sprog;
+  document.getElementById("sprog").textContent = t.knap;
+  document.getElementById("t-vaelg").textContent = t.vaelg;
+  document.getElementById("t-spoerg").textContent = t.spoerg;
+  document.getElementById("t-drevet").textContent = t.drevet;
+  document.getElementById("opd").textContent = D.opdateret ? t.opd + " " + D.opdateret : "";
+  var c = document.getElementById("chips"); c.innerHTML = "";
+  A.forEach(function (a) {
+    var b = document.createElement("span");
+    b.className = "chip" + (valgt[a[0]] ? " on" : "");
+    b.textContent = navn(a[0]);
+    b.onclick = function () { valgt[a[0]] = !valgt[a[0]];
+      try { localStorage.setItem("taplink-allergener", JSON.stringify(valgt)); } catch (e) {} tegn(); };
+    c.appendChild(b);
+  });
+  var aktive = Object.keys(valgt).filter(function (k) { return valgt[k]; });
+  var L = document.getElementById("liste"); L.innerHTML = "";
+  if (!D.retter || !D.retter.length) { L.innerHTML = '<div class="tom">' + t.venter + '</div>';
+    document.getElementById("status").textContent = ""; return; }
+  var passer = 0, kat = null;
+  D.retter.forEach(function (r) {
+    var rammer = aktive.filter(function (k) { return (r.allergener||[]).indexOf(k) >= 0 || (r.kan_indeholde||[]).indexOf(k) >= 0; });
+    var tilst = !r.oplyst ? "ukendt" : (rammer.length ? "nej" : "ok");
+    if (tilst === "ok") passer++;
+    if (r.kategori && r.kategori !== kat) { kat = r.kategori;
+      var h = document.createElement("div"); h.className = "kat"; h.textContent = kat; L.appendChild(h); }
+    var el = document.createElement("div");
+    el.className = "ret" + (aktive.length ? (tilst === "nej" ? " nej" : (tilst === "ok" ? " ok" : "")) : "");
+    var info = !r.oplyst ? "" : ((r.allergener||[]).length ? "<b>" + t.indeh + ":</b> " + r.allergener.map(navn).join(", ")
+                                                       : "<b>" + t.indeh + ":</b> " + t.ingenall);
+    if (r.oplyst && (r.kan_indeholde||[]).length) info += "<br><b>" + t.spor + ":</b> " + r.kan_indeholde.map(navn).join(", ");
+    var m = !aktive.length ? (r.oplyst ? "" : '<span class="maerke m-ukendt">' + t.ukendt + "</span>")
+          : '<span class="maerke m-' + tilst + '">' + t[tilst] + "</span>";
+    el.innerHTML = '<div class="navn">' + esc(r.navn) + "</div>" + (r.beskrivelse ? '<div class="beskr">' + esc(r.beskrivelse) + "</div>" : "")
+                 + (info ? '<div class="info">' + info + "</div>" : "") + m;
+    L.appendChild(el);
+  });
+  document.getElementById("status").textContent = aktive.length
+    ? (passer ? passer + " " + t.passer : t.ingen) : t.alle;
+}
+document.getElementById("sprog").onclick = function () { sprog = sprog === "da" ? "en" : "da"; tegn(); };
+tegn();
+</script>
+</body>
+</html>

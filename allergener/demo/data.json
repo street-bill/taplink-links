@@ -1,0 +1,95 @@
+{
+ "navn": "Café Eksempel",
+ "retter": [
+  {
+   "navn": "Avocado-toast",
+   "kategori": "Brunch",
+   "beskrivelse": "Surdejsbrød, avocado, pocheret æg, chili",
+   "allergener": [
+    "gluten",
+    "aeg"
+   ],
+   "kan_indeholde": [
+    "sesam"
+   ],
+   "oplyst": true
+  },
+  {
+   "navn": "Yoghurt med granola",
+   "kategori": "Brunch",
+   "beskrivelse": "Græsk yoghurt, hjemmelavet granola, bær",
+   "allergener": [
+    "maelk",
+    "gluten",
+    "noedder"
+   ],
+   "kan_indeholde": [],
+   "oplyst": true
+  },
+  {
+   "navn": "Pandekager",
+   "kategori": "Brunch",
+   "beskrivelse": "Ahornsirup og bær",
+   "allergener": [
+    "gluten",
+    "aeg",
+    "maelk"
+   ],
+   "kan_indeholde": [],
+   "oplyst": true
+  },
+  {
+   "navn": "Laksesalat",
+   "kategori": "Frokost",
+   "beskrivelse": "Varmrøget laks, kartofler, dild-dressing",
+   "allergener": [
+    "fisk",
+    "sennep",
+    "aeg"
+   ],
+   "kan_indeholde": [],
+   "oplyst": true
+  },
+  {
+   "navn": "Thai-suppe med rejer",
+   "kategori": "Frokost",
+   "beskrivelse": "Kokos, citrongræs, rejer",
+   "allergener": [
+    "krebsdyr",
+    "soja",
+    "fisk"
+   ],
+   "kan_indeholde": [
+    "jordnoedder"
+   ],
+   "oplyst": true
+  },
+  {
+   "navn": "Grøn salat",
+   "kategori": "Frokost",
+   "beskrivelse": "Sæsonens grønt, citronvinaigrette",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": true
+  },
+  {
+   "navn": "Dagens kage",
+   "kategori": "Kager",
+   "beskrivelse": "Skifter dagligt",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "navn": "Cappuccino",
+   "kategori": "Drikke",
+   "beskrivelse": "Kan fås med havremælk",
+   "allergener": [
+    "maelk"
+   ],
+   "kan_indeholde": [],
+   "oplyst": true
+  }
+ ],
+ "opdateret": "20.10.2026"
+}

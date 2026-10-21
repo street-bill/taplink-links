@@ -72,6 +72,7 @@ var T = {
         passer:"retter passer til dig", ingen:"Ingen retter passer til dine valg - spørg personalet.",
         indeh:"Indeholder", spor:"Kan indeholde spor af", ingenall:"Ingen af de 14 allergener",
         ok:"Passer til dig", nej:"Indeholder noget, du ikke tåler", ukendt:"Ikke oplyst - spørg personalet",
+        visnej:"Vis også de {n} retter, du ikke kan spise",
         venter:"Oplysningerne er på vej. Spørg personalet indtil da.", knap:"English",
         orig:"Se det originale menukort", tak:"Tak for besøget! Vil du hjælpe os med en anmeldelse?",
         anmeldknap:"Giv os en anmeldelse" },
@@ -81,22 +82,24 @@ var T = {
         passer:"dishes suit you", ingen:"No dishes match your selection - please ask the staff.",
         indeh:"Contains", spor:"May contain traces of", ingenall:"None of the 14 allergens",
         ok:"Suits you", nej:"Contains something you can't have", ukendt:"Not stated - ask the staff",
+        visnej:"Also show the {n} dishes you can't have",
         venter:"Information is on its way. Please ask the staff for now.", knap:"Dansk",
         orig:"See the original menu", tak:"Thanks for visiting! Would you help us with a review?",
         anmeldknap:"Leave us a review" }
 };
 var sprog = (navigator.language || "da").slice(0,2) === "da" ? "da" : "en";
 var fane = (location.hash || "").replace("#","") || D.start || "allerg";
-var valgt = {};
+var valgt = {}, visNej = false;
 try { valgt = JSON.parse(localStorage.getItem("taplink-allergener") || "{}"); } catch (e) {}
 function navn(k) { for (var i=0;i<A.length;i++) if (A[i][0]===k) return sprog==="da" ? A[i][1] : A[i][2]; return k; }
 function esc(s) { var d=document.createElement("div"); d.textContent=s||""; return d.innerHTML; }
 function grupper(fn) {
   var L = document.createElement("div"), kat = null;
   (D.retter||[]).forEach(function (r) {
+    var el = fn(r); if (!el) return;  // 21-10: skjulte retter (passer ikke) - og ingen tom kategori-overskrift
     if (r.kategori && r.kategori !== kat) { kat = r.kategori;
       var h = document.createElement("div"); h.className = "kat"; h.textContent = kat; L.appendChild(h); }
-    L.appendChild(fn(r));
+    L.appendChild(el);
   });
   return L;
 }
@@ -124,18 +127,19 @@ function allerg(t) {
   b.innerHTML = "<h2>" + t.vaelg + '</h2><div class="chips"></div>';
   A.forEach(function (a) {
     var c = document.createElement("span"); c.className = "chip" + (valgt[a[0]] ? " on" : ""); c.textContent = navn(a[0]);
-    c.onclick = function () { valgt[a[0]] = !valgt[a[0]];
+    c.onclick = function () { valgt[a[0]] = !valgt[a[0]]; visNej = false;
       try { localStorage.setItem("taplink-allergener", JSON.stringify(valgt)); } catch (e) {} tegn(); };
     b.querySelector(".chips").appendChild(c);
   });
   box.appendChild(b);
   var st = document.createElement("div"); st.className = "status"; box.appendChild(st);
   if (!(D.retter||[]).length) { box.insertAdjacentHTML("beforeend", '<div class="tom">' + t.venter + "</div>"); return box; }
-  var aktive = Object.keys(valgt).filter(function (k) { return valgt[k]; }), passer = 0;
+  var aktive = Object.keys(valgt).filter(function (k) { return valgt[k]; }), passer = 0, skjult = 0;
   box.appendChild(grupper(function (r) {
     var rammer = aktive.filter(function (k) { return (r.allergener||[]).indexOf(k) >= 0 || (r.kan_indeholde||[]).indexOf(k) >= 0; });
     var tilst = !r.oplyst ? "ukendt" : (rammer.length ? "nej" : "ok");
     if (tilst === "ok") passer++;
+    if (tilst === "nej" && !visNej) { skjult++; return null; }  // gæsten ser først det, de KAN spise (21-10)
     var el = document.createElement("div");
     el.className = "ret" + (aktive.length ? (tilst === "nej" ? " nej" : (tilst === "ok" ? " ok" : "")) : "");
     var info = !r.oplyst ? "" : "<b>" + t.indeh + ":</b> " + ((r.allergener||[]).length ? r.allergener.map(navn).join(", ") : t.ingenall);
@@ -146,6 +150,8 @@ function allerg(t) {
     return el;
   }));
   st.textContent = aktive.length ? (passer ? passer + " " + t.passer : t.ingen) : t.alle;
+  if (skjult) { var vb = document.createElement("button"); vb.className = "sprog"; vb.style.marginTop = "6px";
+    vb.textContent = t.visnej.replace("{n}", skjult); vb.onclick = function () { visNej = true; tegn(); }; box.appendChild(vb); }
   return box;
 }
 function anmeld(t) {

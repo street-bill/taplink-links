@@ -34,6 +34,8 @@
   .ret.ok { border-left:4px solid var(--ok); }
   .top { display:flex; justify-content:space-between; gap:10px; }
   .navn { font-weight:600; }
+  .ret.mb { padding:0; overflow:hidden; } .ret.mb .kropp { padding:12px 14px; }
+  .rbill { width:100%; aspect-ratio:16/10; object-fit:cover; display:block; background:var(--linje); }
   .pris { font-weight:600; white-space:nowrap; }
   .beskr { color:var(--svag); font-size:.88rem; margin-top:2px; }
   .info { font-size:.85rem; margin-top:6px; }
@@ -141,15 +143,24 @@ function allerg(t) {
     if (tilst === "ok") passer++;
     if (tilst === "nej" && !visNej) { skjult++; return null; }  // gæsten ser først det, de KAN spise (21-10)
     var el = document.createElement("div");
-    el.className = "ret" + (aktive.length ? (tilst === "nej" ? " nej" : (tilst === "ok" ? " ok" : "")) : "");
+    el.className = "ret" + (r.billede ? " mb" : "") + (aktive.length ? (tilst === "nej" ? " nej" : (tilst === "ok" ? " ok" : "")) : "");
     var info = !r.oplyst ? "" : "<b>" + t.indeh + ":</b> " + ((r.allergener||[]).length ? r.allergener.map(navn).join(", ") : t.ingenall);
     if (r.oplyst && (r.kan_indeholde||[]).length) info += "<br><b>" + t.spor + ":</b> " + r.kan_indeholde.map(navn).join(", ");
     var m = !aktive.length ? (r.oplyst ? "" : '<span class="maerke m-ukendt">' + t.ukendt + "</span>")
           : '<span class="maerke m-' + tilst + '">' + t[tilst] + "</span>";
-    el.innerHTML = '<div class="navn">' + esc(r.navn) + "</div>" + (info ? '<div class="info">' + info + "</div>" : "") + m;
+    // 21-10 (Thomas: "menukortet og allergener er jo ens"): ÉN liste med billede, pris og beskrivelse
+    var krop = '<div class="top"><div class="navn">' + esc(r.navn) + '</div>' + (r.pris ? '<div class="pris">' + esc(r.pris) + "</div>" : "") + "</div>"
+      + (r.beskrivelse ? '<div class="beskr">' + esc(r.beskrivelse) + "</div>" : "") + (info ? '<div class="info">' + info + "</div>" : "") + m;
+    el.innerHTML = (r.billede ? '<img class="rbill" loading="lazy" src="' + esc(r.billede) + '" alt="' + esc(r.navn) + '">' : "")
+      + (r.billede ? '<div class="kropp">' + krop + "</div>" : krop);
     return el;
   }));
   st.textContent = aktive.length ? (passer ? passer + " " + t.passer : t.ingen) : t.alle;
+  (D.originaler||[]).forEach(function (f, i) {
+    var o = document.createElement("div"); o.className = "orig";
+    o.innerHTML = '<a class="knap lys" href="' + f + '" target="_blank" rel="noopener">' + t.orig + (D.originaler.length > 1 ? " " + (i+1) : "") + "</a>";
+    box.appendChild(o);
+  });
   if (skjult) { var vb = document.createElement("button"); vb.className = "sprog"; vb.style.marginTop = "6px";
     vb.textContent = t.visnej.replace("{n}", skjult); vb.onclick = function () { visNej = true; tegn(); }; box.appendChild(vb); }
   return box;
@@ -172,7 +183,7 @@ function tegn() {
   document.getElementById("t-spoerg").textContent = t.spoerg;
   document.getElementById("t-drevet").textContent = t.drevet;
   document.getElementById("opd").textContent = D.opdateret ? t.opd + " " + D.opdateret : "";
-  var faner = [["menu", t.menu], ["allerg", t.allerg]].concat(D.anmeld_url ? [["anmeld", t.anmeld]] : []);
+  var faner = [["allerg", t.allerg]].concat(D.anmeld_url ? [["anmeld", t.anmeld]] : []);  // 21-10: Menukort-fanen er lagt sammen med Allergener
   if (!faner.some(function (f) { return f[0] === fane; })) fane = "allerg";
   var F = document.getElementById("faner"); F.innerHTML = "";
   faner.forEach(function (f) {

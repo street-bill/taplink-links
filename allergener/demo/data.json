@@ -1,25 +1,40 @@
 {
- "navn": "Café Eksempel",
+ "navn": "Bistro Havnen",
  "anmeld_url": "https://taplink.dk",
+ "banner": "EKSEMPEL - sådan ser jeres egen side ud. Gæsten tapper standeren på bordet og finder på 2 sekunder ud af, hvad de kan spise.",
  "retter": [
   {
    "navn": "Avocado-toast",
    "kategori": "Brunch",
-   "beskrivelse": "Surdejsbrød, avocado, pocheret æg, chili",
+   "beskrivelse": "Surdejsbrød, avocado, pocheret æg, chili og sesam",
    "pris": "95 kr",
    "allergener": [
     "gluten",
-    "aeg"
+    "aeg",
+    "sesam"
+   ],
+   "kan_indeholde": [],
+   "oplyst": true
+  },
+  {
+   "navn": "Brunchtallerken",
+   "kategori": "Brunch",
+   "beskrivelse": "Røræg, bacon, pølse, ost, yoghurt, frugt og brød",
+   "pris": "145 kr",
+   "allergener": [
+    "gluten",
+    "aeg",
+    "maelk"
    ],
    "kan_indeholde": [
-    "sesam"
+    "sennep"
    ],
    "oplyst": true
   },
   {
    "navn": "Yoghurt med granola",
    "kategori": "Brunch",
-   "beskrivelse": "Græsk yoghurt, hjemmelavet granola, bær",
+   "beskrivelse": "Græsk yoghurt, hjemmelavet granola med hasselnødder, bær",
    "pris": "65 kr",
    "allergener": [
     "maelk",
@@ -32,7 +47,7 @@
   {
    "navn": "Pandekager",
    "kategori": "Brunch",
-   "beskrivelse": "Ahornsirup og bær",
+   "beskrivelse": "Ahornsirup, bær og crème fraîche",
    "pris": "75 kr",
    "allergener": [
     "gluten",
@@ -45,7 +60,7 @@
   {
    "navn": "Laksesalat",
    "kategori": "Frokost",
-   "beskrivelse": "Varmrøget laks, kartofler, dild-dressing",
+   "beskrivelse": "Varmrøget laks, nye kartofler, dild-sennepsdressing",
    "pris": "125 kr",
    "allergener": [
     "fisk",
@@ -58,7 +73,7 @@
   {
    "navn": "Thai-suppe med rejer",
    "kategori": "Frokost",
-   "beskrivelse": "Kokos, citrongræs, rejer",
+   "beskrivelse": "Kokos, citrongræs, rejer, koriander",
    "pris": "115 kr",
    "allergener": [
     "krebsdyr",
@@ -71,17 +86,176 @@
    "oplyst": true
   },
   {
+   "navn": "Clubsandwich",
+   "kategori": "Frokost",
+   "beskrivelse": "Kylling, bacon, tomat, mayo og pommes frites",
+   "pris": "135 kr",
+   "allergener": [
+    "gluten",
+    "aeg",
+    "sennep"
+   ],
+   "kan_indeholde": [],
+   "oplyst": true
+  },
+  {
+   "navn": "Stjerneskud",
+   "kategori": "Frokost",
+   "beskrivelse": "Rødspættefilet, rejer, asparges, kaviar og dressing",
+   "pris": "149 kr",
+   "allergener": [
+    "fisk",
+    "krebsdyr",
+    "gluten",
+    "aeg",
+    "maelk"
+   ],
+   "kan_indeholde": [],
+   "oplyst": true
+  },
+  {
    "navn": "Grøn salat",
    "kategori": "Frokost",
-   "beskrivelse": "Sæsonens grønt, citronvinaigrette",
+   "beskrivelse": "Sæsonens grønt, citronvinaigrette, ristede kerner",
    "pris": "85 kr",
+   "allergener": [],
+   "kan_indeholde": [
+    "sennep"
+   ],
+   "oplyst": true
+  },
+  {
+   "navn": "Moules frites",
+   "kategori": "Aften",
+   "beskrivelse": "Blåmuslinger i hvidvin og fløde, pommes frites",
+   "pris": "189 kr",
+   "allergener": [
+    "bloeddyr",
+    "maelk",
+    "selleri",
+    "svovl"
+   ],
+   "kan_indeholde": [],
+   "oplyst": true
+  },
+  {
+   "navn": "Oksemørbrad",
+   "kategori": "Aften",
+   "beskrivelse": "Ristede rodfrugter, pommes Anna og rødvinssauce",
+   "pris": "265 kr",
+   "allergener": [
+    "maelk",
+    "selleri",
+    "svovl"
+   ],
+   "kan_indeholde": [],
+   "oplyst": true
+  },
+  {
+   "navn": "Svampe-risotto",
+   "kategori": "Aften",
+   "beskrivelse": "Karl Johan-svampe, parmesan, trøffel",
+   "pris": "179 kr",
+   "allergener": [
+    "maelk",
+    "selleri"
+   ],
+   "kan_indeholde": [],
+   "oplyst": true
+  },
+  {
+   "navn": "Fiskens fisk",
+   "kategori": "Aften",
+   "beskrivelse": "Dagens fangst med beurre blanc og sæsonens grønt",
+   "pris": "229 kr",
+   "allergener": [
+    "fisk",
+    "maelk",
+    "svovl"
+   ],
+   "kan_indeholde": [
+    "krebsdyr"
+   ],
+   "oplyst": true
+  },
+  {
+   "navn": "Vegansk karry",
+   "kategori": "Aften",
+   "beskrivelse": "Kikærter, spinat, kokos og jasminris",
+   "pris": "159 kr",
+   "allergener": [],
+   "kan_indeholde": [
+    "jordnoedder",
+    "sesam"
+   ],
+   "oplyst": true
+  },
+  {
+   "navn": "Børneburger",
+   "kategori": "Børnemenu",
+   "beskrivelse": "Oksekød, ketchup, pommes frites",
+   "pris": "89 kr",
+   "allergener": [
+    "gluten",
+    "sesam",
+    "sennep"
+   ],
+   "kan_indeholde": [],
+   "oplyst": true
+  },
+  {
+   "navn": "Fiskefrikadeller",
+   "kategori": "Børnemenu",
+   "beskrivelse": "Med kartofler og remoulade",
+   "pris": "79 kr",
+   "allergener": [
+    "fisk",
+    "aeg",
+    "gluten",
+    "sennep"
+   ],
+   "kan_indeholde": [],
+   "oplyst": true
+  },
+  {
+   "navn": "Chokoladekage",
+   "kategori": "Dessert",
+   "beskrivelse": "Lun chokoladekage, vaniljeis",
+   "pris": "75 kr",
+   "allergener": [
+    "gluten",
+    "aeg",
+    "maelk"
+   ],
+   "kan_indeholde": [
+    "noedder"
+   ],
+   "oplyst": true
+  },
+  {
+   "navn": "Crème brûlée",
+   "kategori": "Dessert",
+   "beskrivelse": "Vanilje og karamel",
+   "pris": "69 kr",
+   "allergener": [
+    "aeg",
+    "maelk"
+   ],
+   "kan_indeholde": [],
+   "oplyst": true
+  },
+  {
+   "navn": "Sorbet",
+   "kategori": "Dessert",
+   "beskrivelse": "Tre kugler, dagens frugt",
+   "pris": "55 kr",
    "allergener": [],
    "kan_indeholde": [],
    "oplyst": true
   },
   {
    "navn": "Dagens kage",
-   "kategori": "Kager",
+   "kategori": "Dessert",
    "beskrivelse": "Skifter dagligt",
    "pris": "45 kr",
    "allergener": [],
@@ -98,7 +272,29 @@
    ],
    "kan_indeholde": [],
    "oplyst": true
+  },
+  {
+   "navn": "Fadøl",
+   "kategori": "Drikke",
+   "beskrivelse": "0,4 l",
+   "pris": "65 kr",
+   "allergener": [
+    "gluten"
+   ],
+   "kan_indeholde": [],
+   "oplyst": true
+  },
+  {
+   "navn": "Husets hvidvin",
+   "kategori": "Drikke",
+   "beskrivelse": "Glas",
+   "pris": "75 kr",
+   "allergener": [
+    "svovl"
+   ],
+   "kan_indeholde": [],
+   "oplyst": true
   }
  ],
- "opdateret": "20.10.2026"
+ "opdateret": "21.10.2026"
 }

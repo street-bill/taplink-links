@@ -1,0 +1,514 @@
+{
+ "navn": "Pizza King",
+ "retter": [
+  {
+   "kategori": "Italiensk & Deep Pan Pizza",
+   "navn": "1. Margarita",
+   "beskrivelse": "Tomat, ost",
+   "pris": "85 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Italiensk & Deep Pan Pizza",
+   "navn": "5. New York",
+   "beskrivelse": "Tomat, ost, skinke, bacon, oksekød",
+   "pris": "95 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Italiensk & Deep Pan Pizza",
+   "navn": "6. Vegetar",
+   "beskrivelse": "Tomat, ost, champignon, løg, rød peber, oliven, majs",
+   "pris": "95 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Italiensk & Deep Pan Pizza",
+   "navn": "8. Adam's Special",
+   "beskrivelse": "Tomat, ost, kebabkød, løg, kylling, chili, hvidløg",
+   "pris": "95 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Italiensk & Deep Pan Pizza",
+   "navn": "9. Milano",
+   "beskrivelse": "Tomat, ost, kebabkød, champignon, pepperoni, rød peber",
+   "pris": "95 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Italiensk & Deep Pan Pizza",
+   "navn": "12. Pizza King",
+   "beskrivelse": "Tomat, ost, oksekød, champignon, skinke, løg, rød peber",
+   "pris": "95 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Italiensk & Deep Pan Pizza",
+   "navn": "14. Marinara",
+   "beskrivelse": "Tomat, ost, tun, løg, rødpeber",
+   "pris": "95 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Italiensk & Deep Pan Pizza",
+   "navn": "15. Hawai",
+   "beskrivelse": "Tomat, ost, skinke, ananas",
+   "pris": "90 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Italiensk & Deep Pan Pizza",
+   "navn": "16. Pizza Special",
+   "beskrivelse": "Tomat, ost, kebabkød, salat, dressing",
+   "pris": "95 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Italiensk & Deep Pan Pizza",
+   "navn": "17. Byg selv pizza",
+   "beskrivelse": "Tomat, ost plus 3 ting mere",
+   "pris": "95 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Italiensk & Deep Pan Pizza",
+   "navn": "18. Nyborg Special",
+   "beskrivelse": "Tomat, ost, oksekød, skinke, bacon, champignon",
+   "pris": "95 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Italiensk & Deep Pan Pizza",
+   "navn": "19. Børne Pizza",
+   "beskrivelse": "Tomat, ost, skinke, pølser",
+   "pris": "90 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Italiensk & Deep Pan Pizza",
+   "navn": "20. Pizza Peperoni",
+   "beskrivelse": "Tomat, ost, oksekød, skinke, pepperoni, rødpeber",
+   "pris": "95 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Italiensk & Deep Pan Pizza",
+   "navn": "21. Parma",
+   "beskrivelse": "Tomat, ost, skinke, oksekød, kylling, pølser",
+   "pris": "95 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Italiensk & Deep Pan Pizza",
+   "navn": "22. Alanya",
+   "beskrivelse": "Tomat, ost, skinke, kylling, ananas, karry",
+   "pris": "95 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Italiensk & Deep Pan Pizza",
+   "navn": "85. Mamamia",
+   "beskrivelse": "Tomat, ost, kødsauce, skinke, champignon, pepperoni, rødpeber",
+   "pris": "100 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Italiensk & Deep Pan Pizza",
+   "navn": "86. Gorgonzola",
+   "beskrivelse": "Tomat, ost, oksekød, kebabkød, champignon, løg, gorgonzola",
+   "pris": "100 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Italiensk & Deep Pan Pizza",
+   "navn": "87. De la Vita",
+   "beskrivelse": "Tomat, ost, oksekød, skinke, pepperoni, bearnaisesauce",
+   "pris": "100 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Italiensk & Deep Pan Pizza",
+   "navn": "88. Meatlover",
+   "beskrivelse": "Tomat, ost, kebabkød, skinke, bacon, pølser, oksekød",
+   "pris": "110 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Mexicansk Pizza",
+   "navn": "89. Mexicansk pizza",
+   "beskrivelse": "Tomat, ost, kylling, pepperoni, jalapenos, rødpeber, løg",
+   "pris": "100 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Mexicansk Pizza",
+   "navn": "90. Mexicansk pizza",
+   "beskrivelse": "Tomat, ost, pepperoni, oksekød, jalapenos, rødpeber, løg",
+   "pris": "100 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Mexicansk Pizza",
+   "navn": "91. Mexicansk pizza",
+   "beskrivelse": "Tomat, ost, kebabkød, oksekød, jalapenos, champignon",
+   "pris": "100 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Nyhed",
+   "navn": "100. Pizza Middle East",
+   "beskrivelse": "Tomat, ost, kalkunstrimler, kalvebacon, løg, rødpeber",
+   "pris": "100 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Indbagt Pizza",
+   "navn": "23. Calzone",
+   "beskrivelse": "Tomat, ost, skinke",
+   "pris": "90 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Indbagt Pizza",
+   "navn": "24. Spaghetti",
+   "beskrivelse": "Tomat, ost, kødsauce, skinke, spaghetti",
+   "pris": "99 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Indbagt Pizza",
+   "navn": "25. Armarei",
+   "beskrivelse": "Tomat, ost, kødsauce, champignon, kebabkød",
+   "pris": "99 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Grill",
+   "navn": "30. Pommes frites Lille",
+   "beskrivelse": "",
+   "pris": "40 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Grill",
+   "navn": "30. Pommes frites Stor",
+   "beskrivelse": "",
+   "pris": "50 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Grill",
+   "navn": "60. Kyllinge burger m/ost",
+   "beskrivelse": "100 g, salat, løg, tomat, syltede agurk",
+   "pris": "50 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Grill",
+   "navn": "62. Kebabmix",
+   "beskrivelse": "Kebabkød, pommes frites, løg, tomat, agurker, salat, dressing",
+   "pris": "90 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Grill",
+   "navn": "64. Hvidløgs-brød med ost",
+   "beskrivelse": "",
+   "pris": "50 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Rulle brød – Dürum",
+   "navn": "31. Dürum m/ kebabkød",
+   "beskrivelse": "Salat, løg, dressing",
+   "pris": "80 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Rulle brød – Dürum",
+   "navn": "32. Dürum m/ kylling",
+   "beskrivelse": "Salat, tomat, løg, dressing",
+   "pris": "80 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Rulle brød – Dürum",
+   "navn": "33. Dürum m/ tun",
+   "beskrivelse": "Salat, tomat, løg, dressing",
+   "pris": "80 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Rulle brød – Dürum",
+   "navn": "50. Dürum m/ skinke",
+   "beskrivelse": "Salat, tomat, løg, dressing",
+   "pris": "80 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Rulle brød – Dürum",
+   "navn": "51. King Special m/ kebabkød",
+   "beskrivelse": "Ost, hjemmelavet chilisauce, løg, salat, jalapenos, dressing",
+   "pris": "90 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Rulle brød – Dürum",
+   "navn": "52. Dürum m/ falafel",
+   "beskrivelse": "Salat, tomat, løg, dressing",
+   "pris": "80 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Pitabrød",
+   "navn": "35. Pitabrød m/ kylling",
+   "beskrivelse": "Salat, tomat, løg, dressing",
+   "pris": "70 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Pitabrød",
+   "navn": "36. Pitabrød m/ skinke",
+   "beskrivelse": "Salat, tomat, løg, dressing",
+   "pris": "70 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Pitabrød",
+   "navn": "37. Pitabrød m/ tun",
+   "beskrivelse": "Salat, tomat, løg, dressing",
+   "pris": "70 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Pitabrød",
+   "navn": "38. Pitabrød m/ kebabkød",
+   "beskrivelse": "Salat, tomat, løg, dressing",
+   "pris": "70 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Pitabrød",
+   "navn": "40. Pitabrød m/ falafel",
+   "beskrivelse": "Salat, tomat, løg, dressing",
+   "pris": "70 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Hindenburger",
+   "navn": "43. Burger m/ ost og bacon",
+   "beskrivelse": "Hjemmebagt bolle, 250 g oksekød, salat, løg, tomat, syltede agurk, burger dressing",
+   "pris": "95 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Hindenburger",
+   "navn": "44. King Hot burger m/ ost, bacon, jalapenos og hjemmelavet chilisauce",
+   "beskrivelse": "Hjemmebagt bolle, 250 g oksekød, salat, løg, tomat, syltede agurk, burger dressing",
+   "pris": "105 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Sandwich",
+   "navn": "45. Sandwich m/ kebab",
+   "beskrivelse": "Ost, salat, tomat, agurk, løg, dressing",
+   "pris": "85 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Sandwich",
+   "navn": "46. Sandwich m/ skinke",
+   "beskrivelse": "Ost, salat, tomat, agurk, løg, dressing",
+   "pris": "85 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Sandwich",
+   "navn": "48. Sandwich m/ kylling",
+   "beskrivelse": "Ost, salat, tomat, agurk, løg, dressing",
+   "pris": "85 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Menuer",
+   "navn": "70. Nuggets 1 stk.",
+   "beskrivelse": "",
+   "pris": "8 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Menuer",
+   "navn": "70. Nuggets 8 stk.",
+   "beskrivelse": "8 stk. nuggets med pommes frites og dip",
+   "pris": "90 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Menuer",
+   "navn": "71. Halvkylling",
+   "beskrivelse": "Ca. 500 g med pommes frites og agurkesalat",
+   "pris": "110 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Menuer",
+   "navn": "73. Kyllingeburger",
+   "beskrivelse": "100 g m/ ost, salat, løg, tomat, syltede agurk, lille bakke pommes frites + 0,5 L sodavand",
+   "pris": "100 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Salater",
+   "navn": "78. Salat m/ ananas & fetaost",
+   "beskrivelse": "Grønsalat, løg, tomat, agurk og creme fraiche dressing",
+   "pris": "65 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Salater",
+   "navn": "81. Salat m/ skinke & kylling",
+   "beskrivelse": "Grønsalat, løg, tomat, agurk og creme fraiche dressing",
+   "pris": "75 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Drikkevarer",
+   "navn": "Sodavand 0,33 L",
+   "beskrivelse": "",
+   "pris": "15 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Drikkevarer",
+   "navn": "Sodavand 0,5 L",
+   "beskrivelse": "",
+   "pris": "25 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Drikkevarer",
+   "navn": "Sodavand 1,5 L",
+   "beskrivelse": "",
+   "pris": "35 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  }
+ ],
+ "anmeld_url": "https://search.google.com/local/writereview?placeid=ChIJAQAAABl0ukcRDdtMB-24A2U",
+ "opdateret": "11.11.2026",
+ "originaler": [
+  "menukort-1.jpg"
+ ]
+}

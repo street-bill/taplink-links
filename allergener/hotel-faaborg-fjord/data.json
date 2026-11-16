@@ -1,0 +1,244 @@
+{
+ "navn": "Hotel Faaborg Fjord",
+ "retter": [
+  {
+   "kategori": "Serveres på bordet",
+   "navn": "Gammeldags, modne, hvide sild",
+   "beskrivelse": "Med løg, kapers og karrycreme",
+   "pris": "",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Serveres på bordet",
+   "navn": "Klassisk sennepssild",
+   "beskrivelse": "Med rødløg og æble",
+   "pris": "",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Serveres på bordet",
+   "navn": "Æg og rejer",
+   "beskrivelse": "Med klassisk mayonnaise og dild",
+   "pris": "",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Serveres på bordet",
+   "navn": "Laksesalat",
+   "beskrivelse": "Med rygeostcreme og urtesalat i små glas",
+   "pris": "",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Serveres på bordet",
+   "navn": "Sprød fisk",
+   "beskrivelse": "Med hjemmelavet remoulade og brændt citron",
+   "pris": "",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Buffet",
+   "navn": "Varmrøget laks",
+   "beskrivelse": "Med spinatfløde",
+   "pris": "",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Buffet",
+   "navn": "Klassisk tartelet med unghane",
+   "beskrivelse": "I cremet svampe- og persillesauce",
+   "pris": "",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Buffet",
+   "navn": "Medister",
+   "beskrivelse": "Med julekål og asier",
+   "pris": "",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Buffet",
+   "navn": "Lun leverpostej",
+   "beskrivelse": "Med bacon, svampe og hjemmesyltede rødbeder",
+   "pris": "",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Buffet",
+   "navn": "Flæskesteg",
+   "beskrivelse": "Med sprøde svær og rødkål",
+   "pris": "",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Buffet",
+   "navn": "Andelår",
+   "beskrivelse": "Med appelsin og valnødder",
+   "pris": "",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Buffet",
+   "navn": "Ostebord",
+   "beskrivelse": "Tre gode oste, svesker i cognac og fladbrød",
+   "pris": "",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Buffet",
+   "navn": "Hjemmelavet risalamande",
+   "beskrivelse": "Med gode kirsebær og saltede mandler",
+   "pris": "",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Julefrokostpakke",
+   "navn": "Julefrokostpakke",
+   "beskrivelse": "Buffet, øl, sodavand, husets vine og natmad, kl. 18.30-01.00",
+   "pris": "895 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Julefrokostpakke",
+   "navn": "Natmad",
+   "beskrivelse": "",
+   "pris": "",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Julefrokostpakke",
+   "navn": "Øl",
+   "beskrivelse": "Inkluderet i julefrokostpakken",
+   "pris": "",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Julefrokostpakke",
+   "navn": "Sodavand",
+   "beskrivelse": "Inkluderet i julefrokostpakken",
+   "pris": "",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Julefrokostpakke",
+   "navn": "Husets vine",
+   "beskrivelse": "Inkluderet i julefrokostpakken",
+   "pris": "",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Tilkøb",
+   "navn": "Velkomstbobler",
+   "beskrivelse": "",
+   "pris": "75 kr pr. person",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Tilkøb",
+   "navn": "Drinkspakke",
+   "beskrivelse": "1 avec til kaffen og drinks i baren ad libitum kl. 21.30-01.00",
+   "pris": "295 kr pr. person",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Tilkøb",
+   "navn": "Avec til kaffen",
+   "beskrivelse": "Baileys, cognac eller Jacobsen likør",
+   "pris": "",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Tilkøb",
+   "navn": "Julesnaps",
+   "beskrivelse": "Pr. flaske",
+   "pris": "750 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Tilkøb",
+   "navn": "Linje snaps",
+   "beskrivelse": "",
+   "pris": "",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Tilkøb",
+   "navn": "Gløgg og æbleskiver",
+   "beskrivelse": "",
+   "pris": "95 kr pr. person",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Overnatning",
+   "navn": "Delt dobbeltværelse",
+   "beskrivelse": "Overnatning med morgenbuffet",
+   "pris": "398 kr pr. person",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Overnatning",
+   "navn": "Enkeltværelse",
+   "beskrivelse": "Overnatning med morgenbuffet",
+   "pris": "698 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  }
+ ],
+ "anmeld_url": "https://search.google.com/local/writereview?placeid=ChIJlTvQkJ4qTUYRjP0NKBRVnU4",
+ "opdateret": "16.11.2026",
+ "originaler": [
+  "menukort-1.txt"
+ ]
+}

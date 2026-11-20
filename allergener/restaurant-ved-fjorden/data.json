@@ -1,0 +1,1144 @@
+{
+ "navn": "Restaurant Ved Fjorden",
+ "retter": [
+  {
+   "kategori": "Snacks og Forretter",
+   "navn": "Venø (3 stk)",
+   "beskrivelse": "Venø østers med vinaigrette og citron",
+   "pris": "160 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Snacks og Forretter",
+   "navn": "Venø (6 stk)",
+   "beskrivelse": "Venø østers med vinaigrette og citron",
+   "pris": "289 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Snacks og Forretter",
+   "navn": "Moule",
+   "beskrivelse": "Dampede blåmuslinger, braiseret fennikel, tomater, fennikelsauce med dild",
+   "pris": "165 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Snacks og Forretter",
+   "navn": "Le Saint Jaques",
+   "beskrivelse": "Kammuslingeceviche, agurk, dildsauce, dildurter, parmasankiks",
+   "pris": "155 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Snacks og Forretter",
+   "navn": "Favoritten",
+   "beskrivelse": "Koldrøget laks, agurk, peberrodsmousse, løvstikkeolie",
+   "pris": "135 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Snacks og Forretter",
+   "navn": "Surf and turf",
+   "beskrivelse": "Grillet jomfruhummer, oksetatar, jomfruhummerskum, bitre salater, urter",
+   "pris": "165 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Hovedretter",
+   "navn": "Svømmeren (1 person)",
+   "beskrivelse": "Rødspætte en crouton, muslingesauce, ørredrogn, salat, grillede broccolini",
+   "pris": "275 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Hovedretter",
+   "navn": "Svømmeren (2 personer)",
+   "beskrivelse": "Rødspætte en crouton, muslingesauce, ørredrogn, salat, grillede broccolini",
+   "pris": "550 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Hovedretter",
+   "navn": "Unghane",
+   "beskrivelse": "Unghane, timian soufflefars, sauté på majs, bøgehatte, blanquette sauce",
+   "pris": "285 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Hovedretter",
+   "navn": "Steak og peber",
+   "beskrivelse": "Guldrummet Teres Major, pebersauce med grøn peber, grillede bønner",
+   "pris": "325 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Hovedretter",
+   "navn": "Dampede blåmuslinger fra Jegindø",
+   "beskrivelse": "Dampede blåmuslinger med pommes frites og pebermayonnaise",
+   "pris": "199 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Ost og Desserter",
+   "navn": "Fromage",
+   "beskrivelse": "5 slags oste med kompot og honning-cashewnødder",
+   "pris": "155 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Ost og Desserter",
+   "navn": "Stikkelsbær",
+   "beskrivelse": "Stikkelsbærmousse, stikkelsbærsirup, creme fraiche is, honningtuille",
+   "pris": "135 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Ost og Desserter",
+   "navn": "Appelsindrøm",
+   "beskrivelse": "Kold orangesouffle, appelsinfileter, creme Chantilly, frisk appelsinskal",
+   "pris": "135 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Ost og Desserter",
+   "navn": "Æblet",
+   "beskrivelse": "Karamelliseret æblekompot, crumble, frisk æble, vaniljeis, marengs",
+   "pris": "125 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "3 retter",
+   "navn": "3 retter menu",
+   "beskrivelse": "Favoritten, Unghane og Æblet; skal bestilles af hele bordet",
+   "pris": "475 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "3 retter",
+   "navn": "Tilkøb vinmenu (3 retter)",
+   "beskrivelse": "2 glas vin, afstemt og udvalgt til retterne",
+   "pris": "245 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Signaturmenu",
+   "navn": "Fjords signaturmenu",
+   "beskrivelse": "8 serveringer; skal bestilles af hele bordet",
+   "pris": "895 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Signaturmenu",
+   "navn": "Tilkøb vinmenu (signaturmenu)",
+   "beskrivelse": "4 glas afstemte vine, udvalgt til signaturmenuen",
+   "pris": "525 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Signaturmenu",
+   "navn": "2 slags Østers (Venø østers, agurk, karameliseret fløde)",
+   "beskrivelse": "Venø østers med agurk og karameliseret fløde",
+   "pris": "",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Signaturmenu",
+   "navn": "2 slags Østers (Venø østers, grillet citron)",
+   "beskrivelse": "Venø østers med grillet citron og rødvinsvinaigrette",
+   "pris": "",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Signaturmenu",
+   "navn": "Le Saint Jaques",
+   "beskrivelse": "Kammuslingeceviche, agurk, dildsauce, dildurter, parmasankiks",
+   "pris": "",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Signaturmenu",
+   "navn": "Surf and turf",
+   "beskrivelse": "Grillet jomfruhummer, oksetatar, jomfruhummersauce, bitre salater, urter",
+   "pris": "",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Signaturmenu",
+   "navn": "Guldrummet Teres Major og sommertrøffel",
+   "beskrivelse": "Foiegras sauce, petit gulerødder, trøffel pommes anna",
+   "pris": "",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Signaturmenu",
+   "navn": "Timian og kvæde",
+   "beskrivelse": "Timianis med kvædetæppe og kvædethe",
+   "pris": "",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Signaturmenu",
+   "navn": "Stikkelsbær",
+   "beskrivelse": "Stikkelsbærmousse, stikkelsbærsirup, creme fraiche is, honningtuille",
+   "pris": "",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Signaturmenu",
+   "navn": "Fjords petit four",
+   "beskrivelse": "",
+   "pris": "",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Frokost",
+   "navn": "Venø østers (3 stk)",
+   "beskrivelse": "Venø østers med vinaigrette og citron",
+   "pris": "149 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Frokost",
+   "navn": "Venø østers (6 stk)",
+   "beskrivelse": "Venø østers med vinaigrette og citron",
+   "pris": "289 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Frokost",
+   "navn": "Stjerneskud",
+   "beskrivelse": "Stegt rødspættefilet, røget laks, rejer, cherrytomater, brioche, dressing",
+   "pris": "249 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Frokost",
+   "navn": "Blåmuslinger",
+   "beskrivelse": "Dampede blåmuslinger, grøntsagsjulienne, hvidvinssauce, pommes frites, pebermayonnaise",
+   "pris": "199 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Frokost",
+   "navn": "Oksetatar",
+   "beskrivelse": "Oksetatar, salat vinagreitte, pommes frites, pebermayonnaise",
+   "pris": "215 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Frokost",
+   "navn": "Æblekompot",
+   "beskrivelse": "Æblekompot med crumble, vaniljeis og marengs",
+   "pris": "110 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Frokost",
+   "navn": "Affogato",
+   "beskrivelse": "Vaniljeis med espresso",
+   "pris": "60 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Smørrebrød",
+   "navn": "Vesterhavsfisk",
+   "beskrivelse": "Fisk friteret i øldej, urtecreme, friske urter fra Engesvang",
+   "pris": "129 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Smørrebrød",
+   "navn": "Rejemad",
+   "beskrivelse": "Håndpillede rejer, aspargesmayonnaise, ærteskud, ristet brød",
+   "pris": "139 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Smørrebrød",
+   "navn": "Gris",
+   "beskrivelse": "Tyndskåret nakkefilet, dijonnaise, hjemmeristede løg, friske urter",
+   "pris": "119 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Smørrebrød",
+   "navn": "Hønsesalat",
+   "beskrivelse": "Hønsesalat af lår, blegselleri, bacon crumble, karse",
+   "pris": "129 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Smørrebrød",
+   "navn": "Tatar",
+   "beskrivelse": "Oksetatar af inderlår, tomatmayonnaise, grillede cherrytomater",
+   "pris": "139 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Champagne",
+   "navn": "NV Carte Blanche, Bernard Remy",
+   "beskrivelse": "",
+   "pris": "525 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Champagne",
+   "navn": "2021 Les Massales Extra Brut, Tellier",
+   "beskrivelse": "",
+   "pris": "675 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Champagne",
+   "navn": "NV Heri Hodie Extra Brut, Roger Coulon",
+   "beskrivelse": "",
+   "pris": "785 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Champagne",
+   "navn": "2015 Dom Perignon",
+   "beskrivelse": "",
+   "pris": "2495 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Andre mousserende",
+   "navn": "NV Charles Bailly Blanc des Blancs",
+   "beskrivelse": "",
+   "pris": "355 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Andre mousserende",
+   "navn": "2022 Cava Britissime, Naveran",
+   "beskrivelse": "",
+   "pris": "385 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Andre mousserende",
+   "navn": "NV Cremant de Alsace Calixte, Brut",
+   "beskrivelse": "",
+   "pris": "395 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Hvidvin",
+   "navn": "2024 Riesling Wild Habits Trock",
+   "beskrivelse": "",
+   "pris": "365 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Hvidvin",
+   "navn": "2024 Sauvignon Blanc, Lieubeau, Loire",
+   "beskrivelse": "",
+   "pris": "385 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Hvidvin",
+   "navn": "2024 Chardonnay Viognier, Emotion 2, Vignerons du Narbonnais, Languedoc",
+   "beskrivelse": "",
+   "pris": "355 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Hvidvin",
+   "navn": "2024 Grüner Veltliner Gärtling, Weingut Nigl, Kremstal (Østrig)",
+   "beskrivelse": "",
+   "pris": "395 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Hvidvin",
+   "navn": "2024 Pinot Grigio, La Tunella, Colli Orientali del Friuli",
+   "beskrivelse": "",
+   "pris": "455 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Hvidvin",
+   "navn": "2024 Sancerre, Domaine Fernand Girard, Loire",
+   "beskrivelse": "",
+   "pris": "495 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Hvidvin",
+   "navn": "2023 Bourgogne Blanc, Joseph Burrier",
+   "beskrivelse": "",
+   "pris": "545 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Hvidvin",
+   "navn": "2024 Chablis, Domaine Olivier Boussard",
+   "beskrivelse": "",
+   "pris": "595 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Hvidvin",
+   "navn": "2020 Chablis 1.cru Fourchaume, Regnard",
+   "beskrivelse": "",
+   "pris": "885 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Hvidvin",
+   "navn": "2022 Pouilly Fuisse 1.cru Vers Cras, Domaine Beauregard",
+   "beskrivelse": "",
+   "pris": "855 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Hvidvin",
+   "navn": "2022 Puligny Montrachet Vieilles Vignes, Girardin",
+   "beskrivelse": "",
+   "pris": "1195 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Hvidvin",
+   "navn": "2023 Meursault Vieilles Vignes, Girardin",
+   "beskrivelse": "",
+   "pris": "995 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Hvidvin",
+   "navn": "2021 Riesling Grand Cru Mandelberg, Trimbach, Alsace",
+   "beskrivelse": "",
+   "pris": "885 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Rosé",
+   "navn": "2024 La Vieille Ferme Rose, Famille Perrin, Vin de France",
+   "beskrivelse": "Cinsault, Grenache, Syrah",
+   "pris": "365 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Rosé",
+   "navn": "2024 Rose de Pinot Noir \"Les Rives de l´Estang\" Boyer de Bar",
+   "beskrivelse": "",
+   "pris": "395 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Rosé",
+   "navn": "2024 Saint M, Chateau Saint-Maur",
+   "beskrivelse": "Cinsault, Grenache, Syrah, Cabernet Sauvignon",
+   "pris": "575 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Rødvin",
+   "navn": "2022 Sicoris, Garnatxa Old Wines, Castel del Remei, Catalonien",
+   "beskrivelse": "Grenache",
+   "pris": "355 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Rødvin",
+   "navn": "2024 Pinot Noir, Pierre Lamotte",
+   "beskrivelse": "",
+   "pris": "365 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Rødvin",
+   "navn": "2023 Famille Perrin Reserve, Cotes du Rhone",
+   "beskrivelse": "Grenache, Mourvèdre, Syrah",
+   "pris": "395 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Rødvin",
+   "navn": "2022 Nibbiolo d'Alba, Vino arte Bellezza, Piemonte",
+   "beskrivelse": "Nebbiolo",
+   "pris": "395 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Rødvin",
+   "navn": "2023 Fleurie Ponci, Joseph Burrier, Chateau de Beauregard",
+   "beskrivelse": "",
+   "pris": "545 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Rødvin",
+   "navn": "2023 Bourgogne Rouge, Boyer de Bar",
+   "beskrivelse": "",
+   "pris": "585 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Rødvin",
+   "navn": "2021 Fixin \"Les Herbues\", Les Astrelles",
+   "beskrivelse": "",
+   "pris": "895 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Rødvin",
+   "navn": "2020 Gevrey Chambertin Les Crais, Pierre Naigeon",
+   "beskrivelse": "",
+   "pris": "995 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Rødvin",
+   "navn": "2023 Chambolle Musigny \"Les Athets\" Domaine Jean Tardy",
+   "beskrivelse": "",
+   "pris": "1215 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Rødvin",
+   "navn": "2023 Spätburgunder Trocken, Goldatzel, Rheingau",
+   "beskrivelse": "",
+   "pris": "465 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Rødvin",
+   "navn": "2022 Valpolicella Ripasso Superiore, Ca´Vendi",
+   "beskrivelse": "",
+   "pris": "425 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Rødvin",
+   "navn": "2022 Bodegas Montecastro, Ribera del Duero",
+   "beskrivelse": "",
+   "pris": "585 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Rødvin",
+   "navn": "2021 Barolo, Scavino, Piemonte",
+   "beskrivelse": "",
+   "pris": "865 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Rødvin",
+   "navn": "2019 Brunello di Montalcino, Piancornello",
+   "beskrivelse": "",
+   "pris": "825 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Rødvin",
+   "navn": "2023 Chateauneuf-du-Pape, Blason du Prince",
+   "beskrivelse": "",
+   "pris": "665 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Rødvin",
+   "navn": "2019 Les Tourelles de Longueville, Pauillac",
+   "beskrivelse": "",
+   "pris": "825 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Dessertvin",
+   "navn": "Fonseca Tawny Port, Portugal",
+   "beskrivelse": "",
+   "pris": "595 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Dessertvin",
+   "navn": "2009 Colheita Port, Feist",
+   "beskrivelse": "",
+   "pris": "695 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Dessertvin",
+   "navn": "2005 Coteaux du Layon Moulin Touchais",
+   "beskrivelse": "",
+   "pris": "725 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Dessertvin",
+   "navn": "2019 Les Charmilles de Tour Blanches 37,5cl",
+   "beskrivelse": "",
+   "pris": "355 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Fadøl",
+   "navn": "Royal Pilsner 4,6% (lille)",
+   "beskrivelse": "",
+   "pris": "45 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Fadøl",
+   "navn": "Royal Pilsner 4,6% (mellem)",
+   "beskrivelse": "",
+   "pris": "55 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Fadøl",
+   "navn": "Royal Pilsner 4,6% (stor)",
+   "beskrivelse": "",
+   "pris": "65 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Fadøl",
+   "navn": "Royal Classic 4,6% (lille)",
+   "beskrivelse": "",
+   "pris": "45 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Fadøl",
+   "navn": "Royal Classic 4,6% (mellem)",
+   "beskrivelse": "",
+   "pris": "55 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Fadøl",
+   "navn": "Royal Classic 4,6% (stor)",
+   "beskrivelse": "",
+   "pris": "65 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Fadøl",
+   "navn": "Royal Blanche 4,6% (mellem)",
+   "beskrivelse": "",
+   "pris": "50 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Fadøl",
+   "navn": "Royal Blanche 4,6% (stor)",
+   "beskrivelse": "",
+   "pris": "70 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Fadøl",
+   "navn": "Anarkist Bloody Weizen 5,2%",
+   "beskrivelse": "",
+   "pris": "70 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Fadøl",
+   "navn": "Anarkist New England IPA 5,4%",
+   "beskrivelse": "",
+   "pris": "70 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Flaskeøl",
+   "navn": "Thisted Bryghus Thy Økologisk Humle 33 cl 5,8%",
+   "beskrivelse": "",
+   "pris": "55 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Flaskeøl",
+   "navn": "Thisted Bryghus Alive Økologisk IPA 33 cl 5,8%",
+   "beskrivelse": "",
+   "pris": "55 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Flaskeøl",
+   "navn": "Fur Bryghus Blonde 6,7% 50 cl",
+   "beskrivelse": "",
+   "pris": "70 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Flaskeøl",
+   "navn": "Fur Bryghus Bock 7,6% 50 cl",
+   "beskrivelse": "",
+   "pris": "70 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Flaskeøl",
+   "navn": "Anarkist Alkoholfri Hazy IPA 0,5% 50 cl",
+   "beskrivelse": "",
+   "pris": "75 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Vand",
+   "navn": "Faxe Kondi 25 cl",
+   "beskrivelse": "",
+   "pris": "32 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Vand",
+   "navn": "Faxe Kondi 0 25 cl",
+   "beskrivelse": "",
+   "pris": "32 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Vand",
+   "navn": "Faxe Kondi Appelsin 25 cl",
+   "beskrivelse": "",
+   "pris": "32 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Vand",
+   "navn": "Pepsi 25 cl",
+   "beskrivelse": "",
+   "pris": "32 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Vand",
+   "navn": "Pepsi Max 25 cl",
+   "beskrivelse": "",
+   "pris": "32 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Vand",
+   "navn": "Mirinda 25 cl",
+   "beskrivelse": "",
+   "pris": "32 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Vand",
+   "navn": "Mirinda Lemon 25 cl",
+   "beskrivelse": "",
+   "pris": "32 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Vand",
+   "navn": "Adelhardt Saft Hyldeblomst 27,5 cl",
+   "beskrivelse": "",
+   "pris": "42 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Vand",
+   "navn": "Adelhardt Saft Rabarber 27,5 cl",
+   "beskrivelse": "",
+   "pris": "42 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Vand",
+   "navn": "Adelhardt Saft Solbær 27,5 cl",
+   "beskrivelse": "",
+   "pris": "42 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Vand",
+   "navn": "Adelhardt Saft Hindbær 27,5 cl",
+   "beskrivelse": "",
+   "pris": "42 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Vand",
+   "navn": "REBÆL økologisk lemonade Hyldeblomst, Mynte og Citron 25 cl",
+   "beskrivelse": "",
+   "pris": "49 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Vand",
+   "navn": "REBÆL økologisk lemonade Rabarber, vanilje og roser 25 cl",
+   "beskrivelse": "",
+   "pris": "49 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Vand",
+   "navn": "Egekilde danskvand, med eller uden brus",
+   "beskrivelse": "",
+   "pris": "32 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Vand",
+   "navn": "Isvand",
+   "beskrivelse": "Gratis ved anden drikkevare; kun isvand giver 25 kr tillæg pr. person",
+   "pris": "",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Kaffe/the",
+   "navn": "Espresso",
+   "beskrivelse": "",
+   "pris": "35 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Kaffe/the",
+   "navn": "Americano",
+   "beskrivelse": "",
+   "pris": "40 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Kaffe/the",
+   "navn": "Capuccino",
+   "beskrivelse": "",
+   "pris": "45 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Kaffe/the",
+   "navn": "Caffe latte",
+   "beskrivelse": "",
+   "pris": "45 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Kaffe/the",
+   "navn": "Frappé",
+   "beskrivelse": "",
+   "pris": "45 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Kaffe/the",
+   "navn": "The – Pukka, økologisk, flere varianter",
+   "beskrivelse": "",
+   "pris": "40 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Snaps/spiritus",
+   "navn": "Rød Aalborg, Brøndum, Jubilæum, Export",
+   "beskrivelse": "",
+   "pris": "50 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Snaps/spiritus",
+   "navn": "Linie Aquavit, O.P. Anderson, Thylandia",
+   "beskrivelse": "",
+   "pris": "50 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Snaps/spiritus",
+   "navn": "En Enkelt, Dr. Nielsen",
+   "beskrivelse": "",
+   "pris": "50 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Snaps/spiritus",
+   "navn": "Fernet Branca, Branca Menta, Arnbitter",
+   "beskrivelse": "",
+   "pris": "50 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Snaps/spiritus",
+   "navn": "Cognac, Calvados, Armagnac, Grappa, Baileys",
+   "beskrivelse": "",
+   "pris": "75 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Drinks",
+   "navn": "Espresso Martini",
+   "beskrivelse": "3 cl vodka, 3 cl Kahlua, 1 cl rørsukkersirup, 5 cl kaffe",
+   "pris": "89 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Drinks",
+   "navn": "Aperol Spritz",
+   "beskrivelse": "4 cl Aperol, 4 cl Prosecco, 1 cl danskvand, appelsin",
+   "pris": "89 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  },
+  {
+   "kategori": "Drinks",
+   "navn": "Ameretto Sour",
+   "beskrivelse": "Amaretto, bourbon, rørsukkersirup, citronsaft, aromatic bitter, æggehvide, amarena kirsebær",
+   "pris": "89 kr",
+   "allergener": [],
+   "kan_indeholde": [],
+   "oplyst": false
+  }
+ ],
+ "anmeld_url": "https://search.google.com/local/writereview?placeid=ChIJLzmRMSosSkYRNq2FUk3dOS8",
+ "opdateret": "20.11.2026",
+ "originaler": [
+  "menukort-1.txt"
+ ]
+}
